@@ -1,0 +1,86 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+#introduction {
+    background-image: url(donate-today-main/images/donation0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+
+}
+
+label {
+    padding: 20px;
+}
+
+.center {
+    color: white;
+    text-align: center;
+
+}
+
+.button {
+    text-decoration: none;
+    font: 400;
+    color: white;
+    background-image: linear-gradient(red, orange);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#donation-amount {
+    text-align: center;
+}
+
+.donate-type {
+    display: flex;
+
+}
+
+#food {
+    background-color: aqua;
+    width: 30%;
+    padding: 20px 10px;
+    margin-right: 2%;
+    border-radius: 3px;
+}
+
+#shelter {
+    background-color: red;
+    width: 30%;
+    padding: 20px 10px;
+    margin-right: 2%;
+    border-radius: 3px;
+
+
+}
+
+#education {
+    background-color: yellow;
+    width: 30%;
+    padding: 20px 10px;
+    margin-right: 2%;
+    border-radius: 3px;
+}
+
+.about-us {
+    display: flex;
+}
+
+.half-width {
+    width: 40%;
+    padding: 2%;
+}
+
+.half-width img {
+    height: 80%;
+    width: 10%;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
