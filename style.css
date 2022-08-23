@@ -1,31 +1,21 @@
 body {
 
-    font-family: 'Poppins', sans-serif;
-}
-
-#introduction {
-    background-image: url(donate-today-main/images/donation0.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-
-}
-
-label {
-    padding: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .center {
-    color: white;
+    background-image: url(donate-today-main/images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    color: aqua;
     text-align: center;
-
 }
 
 .button {
     text-decoration: none;
     font: 400;
     color: white;
-    background-image: linear-gradient(red, orange);
+    background-color: tomato;
     border-radius: 5px;
     padding: 2px;
 }
@@ -48,7 +38,7 @@ label {
 }
 
 #shelter {
-    background-color: red;
+    background-color: lightgreen;
     width: 30%;
     padding: 20px 10px;
     margin-right: 2%;
@@ -58,7 +48,7 @@ label {
 }
 
 #education {
-    background-color: yellow;
+    background-color: lightsteelblue;
     width: 30%;
     padding: 20px 10px;
     margin-right: 2%;
@@ -76,11 +66,16 @@ label {
 
 .half-width img {
     height: 80%;
-    width: 10%;
+    width: 80%;
+}
+
+#update {
+    text-align: center;
+
 }
 
 footer {
     text-align: center;
-    background-color: darkblue;
+    background-color: gray;
     color: white;
 }
